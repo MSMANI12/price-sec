@@ -1,0 +1,171 @@
+*{
+padding:0;
+margin:0 auto;
+}
+.price-sec {
+	margin:60px 0px;
+}
+.price-container{
+	width:80%;
+	margin:auto;
+}
+.price-title {
+	text-align:center;
+	padding:20px 0;
+}
+.price-title h2 {
+	font-size:32px;
+    font-weight:700;
+    color: #124265;
+}
+.price-title p {
+	font-size:14px;
+    color:#919191;
+}
+.price-row {
+	display:flex;
+	gap:2.5%;
+	
+}
+.price-col {
+	width:33.3%;
+	padding: 40px 20px;
+	margin-left:0px;
+	
+	box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+	border-radius:5px;
+}
+.price-content {
+	background:#fefefe;
+}
+.price-sec .price-container .price-row .content-buisness {
+	background: #2487ce;
+	
+}
+.price-sec .price-container .price-row .content-buisness h3 ,
+.price-sec .price-container .price-row .content-buisness h4 ,
+.price-sec .price-container .price-row .content-buisness h4 span ,
+.price-sec .price-container .price-row .content-buisness ul ,
+.price-sec .price-container .price-row .content-buisness ul .old-price { 
+  
+  color:#fff;
+}
+
+.price-info h3 {
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	padding:15px;
+    font-size:18px;
+    font-weight:600;
+    color:#124265;
+}
+
+.price-info h4 {
+    text-align:center;
+	font-size:42px;
+    color:#2487ce;
+    font-weight:500;
+    font-family:"Open Sans", sans-serif;
+    margin-bottom:20px;
+}
+.price-info h4 sup {
+	font-size:20px;
+    top:-15px;
+    left:-3px;
+}
+.price-info h4 span {
+    color:#bababa;
+    font-size:16px;
+    font-weight:300;
+}
+.price-info ul {
+	list-style-type:none;
+	padding:0;
+    list-style:none;
+    color:#124265;
+    text-align:center;
+    font-size:14px;
+}
+.price-info ul li {
+	padding-bottom:15px;
+}
+.price-title h2{
+	padding-bottom:20px;
+}
+li.old-price {
+   color:#ccc;
+}
+.buy-price {
+	padding:15px;
+	text-align:center;
+}
+.buy-price a {
+	text-decoration:none;
+	color:#2487ce;
+	border:2px solid #2487ce;
+    padding:10px 40px;
+    border-radius:5px;
+font-family: "Raleway", sans-serif;
+    font-weight: 600;	
+    transition:all ease 0.3s;	
+}
+.buy-price a:hover {
+	background-color:#2487ce;
+	color:#fff;
+}
+.buy-price-bsns a {
+	text-decoration:none;
+	color:#fff;
+	border:2px solid #fff;
+    padding:10px 40px;
+    border-radius:5px;
+font-family: "Raleway", sans-serif;
+    font-weight: 600;	
+    transition:all ease 0.3s;
+}
+.buy-price-bsns a:hover {
+	background-color:#fff;
+	color:#2487ce;
+}
+.buy-price-bsns {
+	padding:15px;
+	text-align:center;
+}
+ @media(min-width:320px){
+.price-title{
+			 text-align:center;
+		 }
+		 .price-row{
+			 display:flex;
+			 flex-wrap:wrap;
+		 
+		 }
+		 .price-col{
+			 width:100%;
+		 }
+		 
+ }
+   /* tab/ipad */
+        @media(min-width:699px){
+			
+		 .price-row{
+			 display:flex;
+			 flex-wrap:wrap;
+		 
+		 }
+		 .price-col{
+			 width:100%;
+		 }
+		 
+ }
+  /* Desktop/laptop */
+        @media (min-width:1020px){
+			.price-row{
+			 display:flex;
+			 flex-wrap:nowrap;
+		 
+		 }
+		 .price-col{
+			 width:33.3%;
+		 }
+		}
